@@ -80,10 +80,10 @@
 			<li>
 				<span><strong>
 					<?php
-						if ($interval010->days == 0) {
+						if ($interval000->days == 0) {
 							echo " Today";
 						} else {
-							echo $interval010->days . " days ago";
+							echo $interval00->days . " days ago";
 						}
 					?>:
 				</strong></span>Launched on a Friday, wish me luck <em>haha</em>
