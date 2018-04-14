@@ -82,6 +82,8 @@
 					<?php
 						if ($interval000->days == 0) {
 							echo " Today";
+						} elseif ($interval000->days == 1) {
+							echo "1 day ago";
 						} else {
 							echo $interval000->days . " days ago";
 						}
