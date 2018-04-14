@@ -83,7 +83,7 @@
 						if ($interval000->days == 0) {
 							echo " Today";
 						} else {
-							echo $interval00->days . " days ago";
+							echo $interval000->days . " days ago";
 						}
 					?>:
 				</strong></span>Launched on a Friday, wish me luck <em>haha</em>
