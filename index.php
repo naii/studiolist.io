@@ -52,11 +52,11 @@
 		<p>Please leave a review of what you liked and didn’t like about your studio experience, and what could be improved. <em>As soon as I’ve finished the registration system you can leave a review to a studio.</em></p>
 
 		<h3>I’m only human, I make mistakes</h3>
-		<p>You want an up-to-date list and correct information. Ok, me too. If you found a mistake on Studio List, please send me what's wrong.</p>
+		<p>You want an up-to-date list and correct information. Ok, me too. If you found a mistake on Studio List, <a href="mailto:alexander@naii.io?subject=I found a mistake on Studio List">please send me what's wrong</a>.</p>
 
 		<h2 id="story">This page is run by naii.io</h2>
 		<p>Hi, I’m Alexander, founder of naii.io. I’m a solo maker and I run this site. </p>
-		<p>I started Studio List since I didn’t want to stop traveling only because I switched from a freelancer designer/writer to a voiceover career. Traveling is in my blood. I enjoy the movement, feeling the global pulse and reading the world’s landscapes. So, initially it was an egoistic reason and I don’t think that’s bad: I just solved a problem I had and felt wouldn’t be the only one to benefit from it. So, Studio List was born, launched in April 2018.</p>
+		<p>I started Studio List since I didn’t want to stop traveling only because I switched from being a freelance designer/writer to a voiceover career. Traveling is in my blood. I enjoy the movement, feeling the global pulse and reading the world’s landscapes. So initially, it was an egoistic reason and I don’t think that’s bad: I just solved a problem I had and I felt I wouldn’t be the only one to benefit from it. So, Studio List was born, launched in April 2018.</p>
 
 		<h2>Objections</h2>
 		<p>Below you find objections I could think of that could hinder you from using Studio List.</p>
@@ -65,7 +65,7 @@
 		<p>Studio List is a place of trust, creativity, connection and friendship. I’m not building a walled garden but a community where recording studios and artists get together. Also, Studio List is ethical by design. Compare that to tech giant Google who is far from that. I’m a fan of running a „<a href="https://www.indiehackers.com/podcast/043-pieter-levels-of-nomad-list#4214">corner coffee shop internet business</a>“.</p>
 		<!-- <p>Also, if you use Studio List, you don’t need to type „recording studio London“, you can can simply type „London“. So easy and fast.</p> -->
 
-		<p><em>If you have other objections, I’d be happy to answer them here publicly as well. <a href="mailto:alexander@naii.io?subject=My objection for Studio List">Write me your objection</a>.</em></p>
+		<p><em>If you have other objections, I’d be happy to answer them here publicly as well.</em></p>
 
 		<h2>Public documentation</h2>
 		<p>I prefer to be open and transparent about the development of Studio List. That’s why I’m listing major development steps here. I understand that this is not super interesting for you as an artist but my developer friends like it and some of them are musicians as well :P</p>
@@ -88,7 +88,7 @@
 							echo $interval000->days . " days ago";
 						}
 					?>:
-				</strong></span>Launched on a Friday, wish me luck <em>haha</em>
+				</strong></span>Launched on a Friday 13th, wish me luck <em>haha</em>
 			</li>
 		</ul>
 
