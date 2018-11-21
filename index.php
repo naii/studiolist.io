@@ -50,6 +50,17 @@
 		<h2 id="benefits">Benefits</h2>
 		<p>Studio List helps musicians and voice artists <strong>find a recording studio nearby and book it quick!</strong> In contrast to Google, Facebook and their fellow surveillance capitalism colleagues, I ensure all data is stored securely and safely. Except for the studio name, no personal data is being revealed to the public. That’s why a 3-second registration (full name, email address, password) is required.</p>
 
+		<h3>Smart use of existing studio infrastructure</h3>
+
+		<p>With Studio List, I’m using the existing infrastructure of recording studios. As a voiceover artist you only need to bring your skills and a healthy voice to any place where there are studios to record, no need to bring your own computer and equipment. I think that’s an awesome perspective.</p>
+
+		<ol>
+		<li>You book studio time on studiolist.io,</li>
+		<li>show up in the studio,</li>
+		<li>record and</li>
+		<li>send the recorded file to your client or project partner.</li>
+		</ol>
+
 		<h3>For free for artists</h3>
 		<p>With each of your booking I’m charging a commission from the studio owner. The commission is simply included in the price but you don’t pay more, the studio owners accept to receive a little less money from the booking. I hope this is fair for all 3 parties :)</p>
 
@@ -107,7 +118,7 @@
 							echo $interval001->days . " days ago";
 						}
 					?>:
-				</strong></span>Added new copytext and teaser for upcoming interviews
+				</strong></span>Added new copytext, a teaser for upcoming interviews and the paragraph of using existing studio infrastructure
 			</li>
 			<li><span><strong><?php echo $interval000->days . " days ago"; ?>: </strong></span>Launched on a Friday 13th, wish me luck <em>haha</em></li>
 			
