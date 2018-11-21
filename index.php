@@ -7,7 +7,21 @@
 ?>
 <body>
 	<div id="main">
-		<h1>Recording studios ordered by city</h1>
+		
+		<h1>Studio List makes it easy to book studio time at amazing rates</h1>
+
+		<p>We’re a match-maker between top-rated recording studios that have unsold studio time and artists who want to book this studio time.</p>
+
+		<p>Studio owners offer their recording studios so that it’s always booked, and artists find the best studio nearby so that being new in town doesn’t mean being lost and having no idea where to record the next piece.</p>
+
+		<p>In short:</p>
+
+		<ul>
+		<li>Studios kill idle times</li>
+		<li>Artists find the best studios to record in town</li>
+		</ul>
+
+		<h2>Recording studios ordered by city</h2>
 		<p>Read <a href="#benefits">how Studio List benefits you</a>, or log in (soon) to request a price<!-- <a href="/login">request a price</a> -->, get the right contact person, book studio time, see the studio on a nice map or share a review. Below you can also read the background story <a href="#story">why I started Studio List</a>.</p>
 		
 		<h2>Quick navigation</h2>
@@ -52,7 +66,7 @@
 		<p>Please leave a review of what you liked and didn’t like about your studio experience, and what could be improved. <em>As soon as I’ve finished the registration system you can leave a review to a studio.</em></p>
 
 		<h3>I’m only human, I make mistakes</h3>
-		<p>You want an up-to-date list and correct information. Ok, me too. If you found a mistake on Studio List, <a href="mailto:alexander@naii.io?subject=I found a mistake on Studio List">please send me what's wrong</a>.</p>
+		<p>You want an up-to-date list and correct information. Ok, me too. If you found a mistake on Studio List, <a href="mailto:alexander@naii.io?subject=I found a mistake on Studio List">please send me what’s wrong</a>.</p>
 
 		<h2 id="story">This page is run by naii.io</h2>
 		<p>Hi, I’m Alexander, founder of naii.io. I’m a solo maker and I run this site. </p>
@@ -73,23 +87,27 @@
 		<?php
 			$today = new DateTime('now');
 			$date000 = new DateTime("2018-04-13");
+			$date001 = new DateTime("2018-11-21");
 			$interval000 = $date000->diff($today);
+			$interval001 = $date001->diff($today);
 		?>
 
 		<ul>
 			<li>
 				<span><strong>
 					<?php
-						if ($interval000->days == 0) {
+						if ($interval001->days == 0) {
 							echo " Today";
-						} elseif ($interval000->days == 1) {
+						} elseif ($interval001->days == 1) {
 							echo "1 day ago";
 						} else {
-							echo $interval000->days . " days ago";
+							echo $interval001->days . " days ago";
 						}
 					?>:
-				</strong></span>Launched on a Friday 13th, wish me luck <em>haha</em>
+				</strong></span>Added new copytext above
 			</li>
+			<li><span><strong><?php echo $interval000->days . " days ago"; ?>: </strong></span>Launched on a Friday 13th, wish me luck <em>haha</em></li>
+			
 		</ul>
 
 		<h3>Statistics</h3>
