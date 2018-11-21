@@ -68,6 +68,9 @@
 		<h3>I’m only human, I make mistakes</h3>
 		<p>You want an up-to-date list and correct information. Ok, me too. If you found a mistake on Studio List, <a href="mailto:alexander@naii.io?subject=I found a mistake on Studio List">please send me what’s wrong</a>.</p>
 
+		<h3>Interviews with the music industry</h3>
+		<p>And content-wise, I’m planning to make interviews with musicians and vocal artists and ask the question: „How did you make _NAME OF CREATION_?“</p>
+
 		<h2 id="story">This page is run by naii.io</h2>
 		<p>Hi, I’m Alexander, founder of naii.io. I’m a solo maker and I run this site. </p>
 		<p>I started Studio List since I didn’t want to stop traveling only because I switched from being a freelance designer/writer to a voiceover artist. Traveling is in my blood. I enjoy the movement, feeling the global pulse and reading the world’s landscapes. So initially, it was an egoistic reason and I don’t think that’s bad: I just solved a problem I had and I felt I wouldn’t be the only one to benefit from it. So, Studio List was born, launched in April 2018.</p>
@@ -104,7 +107,7 @@
 							echo $interval001->days . " days ago";
 						}
 					?>:
-				</strong></span>Added new copytext above
+				</strong></span>Added new copytext and teaser for upcoming interviews
 			</li>
 			<li><span><strong><?php echo $interval000->days . " days ago"; ?>: </strong></span>Launched on a Friday 13th, wish me luck <em>haha</em></li>
 			
