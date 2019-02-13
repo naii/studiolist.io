@@ -1,10 +1,28 @@
+* {
+	/*margin:0;
+	padding:0;*/
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
 body {
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 	padding: 1em;
 	margin: 0;
 	line-height: 1.75em;
 	font-size: 10px;
 	font-size: 1.25rem;
 	background: #efefef;
+}
+
+h2 {
+	line-height: 1.75em;
 }
 
 #main {
@@ -27,7 +45,7 @@ body {
 
 .below-the-fold {
 	color: #d4d4d4;
-	border: 4px solid #d4d4d4;
+	border: 4px solid #efefef;
 	margin: 15px auto;
 }
 
@@ -66,4 +84,35 @@ tr:nth-child(even) {
 		border: 7px solid transparent;
 		padding: .5em;
   }
+}
+
+h1 a.top-link:any-link {
+	color: #000;
+	text-decoration: none;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+#menu h1.name-logo {
+	line-height: 1.75em;
+	font-size: 10px;
+	font-size: 1.25rem;
+	text-align: left;
+	display: inline;
+}
+
+#menu ul {
+	text-align: right;
+	display: inline-block;
+	line-height: 1em;
+}
+
+#menu ul li {
+	display: inline;
+	margin-right: 10px;
 }
