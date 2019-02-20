@@ -96,28 +96,30 @@
 			$date001 = new DateTime("2018-11-21");
 			$date002 = new DateTime("2019-02-01");
 			$date003 = new DateTime("2019-02-13");
+			$date004 = new DateTime("2019-02-20");
 			$interval000 = $date000->diff($today);
 			$interval001 = $date001->diff($today);
 			$interval002 = $date002->diff($today);
 			$interval003 = $date003->diff($today);
+			$interval004 = $date004->diff($today);
 		?>
 
 		<ul>
 			<li>
 				<span><strong>
 					<?php
-						if ($interval003->days == 0) {
+						if ($interval004->days == 0) {
 							echo " Today";
-						} elseif ($interval003->days == 1) {
+						} elseif ($interval004->days == 1) {
 							echo "1 day ago";
 						} else {
-							echo $interval003->days . " days ago";
+							echo $interval004->days . " days ago";
 						}
 					?>:
-				</strong></span>Slimmer home page, new about page, new contact page
+				</strong></span>Added Moroccan studios who agreed to be listed here, some amendments on the frontpage copytext
 			</li>
-			<li><span><strong><?php echo $interval002->days . " days ago"; ?>: </strong></span>Started 120-day challenge. If I can’t validate studiolist.io within these 4 months, the project dies. See me document it on <a href="https://twitter.com/hashtag/startupdiarystudiolist?src=hash">Twitter</a> and <a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Instagram</a>. Hashtag is #startupdiarystudiolist.
-			</li>
+			<li><span><strong><?php echo $interval003->days . " days ago"; ?>:</strong></span>Slimmer home page, new about page, new contact page</li>
+			<li><span><strong><?php echo $interval002->days . " days ago"; ?>: </strong></span>Started 120-day challenge. If I can’t validate studiolist.io within these 4 months, the project dies. See me document it on <a href="https://twitter.com/hashtag/startupdiarystudiolist?src=hash">Twitter</a> and <a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Instagram</a>. Hashtag is #startupdiarystudiolist.</li>
 			<li><span><strong><?php echo $interval001->days . " days ago"; ?>: </strong></span>Added new copytext, a teaser for upcoming interviews and the paragraph of using existing studio infrastructure</li>
 			<li><span><strong><?php echo $interval000->days . " days ago"; ?>: </strong></span>Launched on a Friday 13th, wish me luck <em>haha</em></li>
 		</ul>
@@ -125,7 +127,7 @@
 		<h3>Statistics</h3>
 
 		<ul>
-		<li>Currently, 44 studies on 2 continents, 2 countries, 2 federal states and 2 cities</li>
+		<li>Currently, 48 studies on 3 continents, 3 countries, 2 federal states and 4 cities</li>
 		</ul>
 
 <?php include '../footer.php'; ?>
