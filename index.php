@@ -1,18 +1,12 @@
 <?php
-	$filepath_germany_berlin = "studiolist-aktuell/studiolist-germany-berlin.csv";
-	$filepath_morocco_agadir = "studiolist-aktuell/studiolist-morocco-agadir.csv";
-	$filepath_morocco_casablanca = "studiolist-aktuell/studiolist-morocco-casablanca.csv";
-	$filepath_usa_texas_tornillo = "studiolist-aktuell/studiolist-usa-texas-tornillo.csv";
+	$filepath_germany_berlin = "studios/studiolist-germany-berlin.csv";
+	$filepath_morocco_agadir = "studios/studiolist-morocco-agadir.csv";
+	$filepath_morocco_casablanca = "studios/studiolist-morocco-casablanca.csv";
+	$filepath_usa_texas_tornillo = "studios/studiolist-usa-texas-tornillo.csv";
 	// require 'functions.php';
 	$title = "studiolist.io - Find a voiceover studio";
 	include 'header.php';#
 ?>
-	<!-- <h2>Book studio time in the best recording studios</h2> -->
-	<!-- <h2>Book the best local recording studio for your voiceover project</h2> -->
-	<h2>Book voiceover studio time <em>in no time</em></h2>
-	<p>studiolist is a search engine and a <strong>live-ranking of the world’s most popular recording studios</strong>. Studios are listed by cities and rated by voiceover artists sharing real-world experiences with their real name. A better experience inside the studio means a higher ranking.</p>
-
-	<p><strong>Book studio time in the best local recording studios for your voiceover project.</strong> Record or audition in the best studios in town so that you can get out of your home-recording studio and <em>travel the world while recording top-notch audio quality</em>. Also, studios kill empty studio time.</p>
 
 
 	<h2>Quick navigation</h2>
@@ -23,7 +17,7 @@
 		<li><a href="#usa-texas-tornillo">USA › TX › Tornillo</a></li>
 	</ul>
 
-	<p>The studios are currently listed alphabetically. <!-- <a href="/login/"> -->Register (and log in)<!-- </a> --> to see all contact details.</p>
+	<p>The studios are currently listed alphabetically. Click a studio to see all contact details (soon).</p>
 
 	<h3 id="germany-berlin">Germany, Berlin</h3>
 	<table sortable>
