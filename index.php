@@ -3,15 +3,15 @@
 	$filepath_morocco_agadir = "studios/studiolist-morocco-agadir.csv";
 	$filepath_morocco_casablanca = "studios/studiolist-morocco-casablanca.csv";
 	$filepath_usa_texas_tornillo = "studios/studiolist-usa-texas-tornillo.csv";
-	// require 'functions.php';
+	require 'functions.php';
 	$title = "studiolist.io - Find a voiceover studio";
 	include 'header.php';#
 ?>
 
-
-	<h2>Quick navigation</h2>
+	<h1>Find a voiceover studio</h1>
+	<h2>Verified studios</h2>
 	<ul>
-		<li><a href="#germany-berlin">Germany › Berlin</a></li>
+		<!-- <li><a href="#germany-berlin">Germany › Berlin</a></li> -->
 		<li><a href="#morocco-agadir">Morocco › Agadir</a></li>
 		<li><a href="#morocco-casablanca">Morocco › Casablanca</a></li>
 		<li><a href="#usa-texas-tornillo">USA › TX › Tornillo</a></li>
@@ -19,14 +19,14 @@
 
 	<p>The studios are currently listed alphabetically. Click a studio to see all contact details (soon).</p>
 
-	<h3 id="germany-berlin">Germany, Berlin</h3>
+	<!-- <h3 id="germany-berlin">Germany, Berlin</h3>
 	<table sortable>
-		<tr>
+		<tr> -->
 		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
-		 <th scope="col"><?php getColumnName($filepath_germany_berlin, 0); ?></th>
+		 <!-- <th scope="col"><?php getColumnName($filepath_germany_berlin, 0); ?></th>
 		</tr>
 		<?php buildHTMLTable($filepath_germany_berlin); ?>
-	</table>
+	</table> -->
 
 	<h3 id="morocco-agadir">Morocco, Agadir</h3>
 	<table sortable>

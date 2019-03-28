@@ -1,7 +1,7 @@
 <?php
 
 	function getStudioData($filepath) {
-		// $file = "studiolist-aktuell/studiolist-berlin-germany-studiolist-berlin-germany.csv";
+		// $file = "studios/studiolist-berlin-germany-studiolist-berlin-germany.csv";
 		$content = file_get_contents($filepath);
 		// $data = explode(';', $content); // The explode() function breaks a string into an array.
 		

@@ -16,6 +16,7 @@
 				<h1 class="name-logo alignleft"><a class="top-link" href="/">studiolist</a></h1>
 				<ul class="alignright">
 					<li><a href="/about/">About</a></li>
+					<li><a href="/activity/">Activity</a></li>
 					<li><a href="/contact/">Contact</a></li>
 				</ul>
 			</div>
