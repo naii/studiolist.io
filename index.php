@@ -3,8 +3,8 @@
 	$filepath_morocco_agadir = "studiolist-aktuell/studiolist-morocco-agadir.csv";
 	$filepath_morocco_casablanca = "studiolist-aktuell/studiolist-morocco-casablanca.csv";
 	$filepath_usa_texas_tornillo = "studiolist-aktuell/studiolist-usa-texas-tornillo.csv";
-	require 'functions.php';
-	$title = "studiolist.io - best recording studios for voice artists";
+	// require 'functions.php';
+	$title = "studiolist.io - Find a voiceover studio";
 	include 'header.php';#
 ?>
 	<!-- <h2>Book studio time in the best recording studios</h2> -->

@@ -13,7 +13,7 @@
 <body>
 		<div id="main">
 			<div id="menu">
-				<h1 class="name-logo alignleft"><a class="top-link" href="/">studiolist.io</a></h1>
+				<h1 class="name-logo alignleft"><a class="top-link" href="/">studiolist</a></h1>
 				<ul class="alignright">
 					<li><a href="/about/">About</a></li>
 					<li><a href="/contact/">Contact</a></li>
